@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts - BiteBox</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+      <p>
+        <a href="index.html">Home</a>
+        |
+        <a href="menu.html">Menu</a>
+        |
+        <a href="about.html">About</a>
+        |
+        <a href="contact.html">Contact</a>
+
+    </p>
+    <h2>Visit our Website</h2>
+    <p>
+     <a href="https://www.google.com" target="_blank">visit google</a>
+    </p>
+    <hr>
+    <h2>Contact Information</h2>
+    <form action=""></form>
+    <h3>Customer information</h3>
+        <label for="fullname">Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">password</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+
+    <h3> order information </h3>
+    <label for="quantity"> quantity</label><br>
+    <input type="number" id="quantity" name="quantity" required><br><br>
+
+    <label for="deliverydate">Preffered Delivery Date:</label><br>
+    <input type="date" id="deliverydate" name="deliverydate" required><br><br>
+
+    <label for="food">Food Items:</label><br>
+    <select id="food" name="food" required>
+        <option>veg pizza</option>
+        <option>pasta</option>
+        <option>burger</option>
+        <option>sandwich</option>
+        <option>fries</option>
+    </select>
+
+<br>
+
+<h3>Payment method</h3>
+    <input type="radio" id="card" name="payment" value="creditcard" required>
+    <label for="card">Credit Card</label><br>
+
+    <input type="radio" id="cashondelivery" name="payment" value="cashondelivery">
+    <label for="cash">Cash on Delivery</label><br><br>
+
+<h3>    
+    Extras
+</h3>
+<input type="checkbox" id="cheese" name="extras">
+<label for="cheese">Extra Cheese</label><br>
+
+<input type="checkbox" id="drink" name="extras">
+<label for="drink">Extra Drink</label><br>
+
+<input type="checkbox" id="dessert" name="extras">
+<label for="dessert">Extra Dessert</label><br>
+
+<h3>Delivery Information</h3>
+<label for="address">Address:</label><br>
+<textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+<input type="submit" value="Place Order">
+<input type="reset" value="Reset">
+</form>
+
+
+</body>
+</html>
